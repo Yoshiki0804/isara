@@ -1102,3 +1102,105 @@ footer p{
 footer span{
   color:#6195C4;
 }
+
+/* responsive */
+@media(max-width:1000px){
+  /* main_1 */
+  .main_1-content h4{
+    font-size:20px;
+  }
+  .main_1-content span{
+    font-size:16px;
+  }
+  .contact-btn2{
+    font-size:26px;
+    width:80%;
+    height:100px;
+    margin:30px 0;
+    border-radius:50px;
+  }
+  /* main_2 */
+  .main_2-title{
+    width:80%;
+  }
+  .main_2-title h1{
+    font-size:20px;
+  }
+  .main_2-title::before,.main_2-title::after{
+    width: 40px;
+    height: 40px;
+  }
+  .main_2-massage{
+    font-size:16px;
+  }
+  /* main_3 */
+  .main_3-title{
+    width:80%;
+  }
+  .main_3 h1{
+    font-size:20px;
+  }
+  .main_3-title::before,.main_3-title::after{
+    width: 40px;
+    height: 40px;
+  }
+  .main_3-subtitle{
+    font-size:18px;
+  }
+  .skill-title{
+    font-size:18px;
+  }
+  .skills{
+    width:100%;
+    margin:20px auto;
+  }
+  .skill img{
+    width:40%;
+  }
+  .skill p{
+    font-size:8px;
+  }
+  /* step */
+  .steps{
+    height:850px;
+  }
+  .steps h1{
+    font-size:20px;
+  }
+  .step{
+    margin-top:20px;
+  }
+  /* message_1 */
+  .message_1{
+    font-size:16px;
+  }
+  /* main_4 */
+  .main_4{
+    height:400px;
+  }
+  .main_4 h1{
+    font-size:20px;
+  }
+  .main_4 p{
+    font-size:16px;
+  }
+  .main_4-images img{
+    width:120px;
+  }
+  /* main_5 */
+  .main_5-title{
+    font-size:18px;
+    width:80%;
+  }
+  .main_5-title::before,.main_5-title::after{
+    width: 40px;
+    height: 40px;
+  }
+  .main_5-title span{
+    font-size:20px;
+  }
+}
+
+@media(max-width:600px){
+
+}
