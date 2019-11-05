@@ -1188,6 +1188,9 @@ footer span{
     width:120px;
   }
   /* main_5 */
+  .main_5{
+    height:1550px;
+  }
   .main_5-title{
     font-size:18px;
     width:80%;
@@ -1198,6 +1201,39 @@ footer span{
   }
   .main_5-title span{
     font-size:20px;
+  }
+  .merits{
+  display:inline-block;
+  }
+  .merit{
+    width:600px;
+    margin-bottom:40px;
+    text-align:center;
+  }
+  .merit p{
+    text-align:left;
+  }
+  .support{
+    width:80%;
+    margin:0 auto;
+  }
+  .support h1{
+    font-size:20px;
+  }
+  .support h2{
+    width:80%;
+    margin:10px auto;
+    font-size:16px;
+  }
+  .support p{
+    font-size:12px;
+    width:85%;
+    margin:0 auto;
+  }
+  .main_5-comment{
+    width:85%;
+    font-size:12px;
+    margin:20px auto;
   }
 }
 
